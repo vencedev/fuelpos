@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "fuelpos-vault": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\VENCEDEV\\vencedev"
+      ]
+    }
+  }
+}

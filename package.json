@@ -1,0 +1,33 @@
+{
+  "name": "fuelpos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "provision:owner": "tsx scripts/provision-owner.ts",
+    "test": "tsx --test app/lib/*.test.mjs",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@neondatabase/auth": "^0.6.0-beta",
+    "@neondatabase/serverless": "^1.2.0",
+    "next": "16.4.5",
+    "pdf-lib": "^1.17.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.4",
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.5",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
